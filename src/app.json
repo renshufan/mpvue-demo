@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/echarts/main",
+    "pages/logs/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#5c7396",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "内嵌H5示例",
+        "iconPath": "static/image/tabBar/home.png",
+        "selectedIconPath": "static/image/tabBar/home1.png"
+      },
+      {
+        "pagePath": "pages/echarts/main",
+        "text": "轮播图示例",
+        "iconPath": "static/image/tabBar/message.png",
+        "selectedIconPath": "static/image/tabBar/message1.png"
+      },
+      {
+        "pagePath": "pages/logs/main",
+        "text": "地图示例",
+        "iconPath": "static/image/tabBar/apply.png",
+        "selectedIconPath": "static/image/tabBar/apply1.png"
+      },
+      {
+        "pagePath": "pages/counter/main",
+        "text": "选择器示例",
+        "iconPath": "static/image/tabBar/tansuo.png",
+        "selectedIconPath": "static/image/tabBar/tansuo1.png"
+      }
+    ]
+  }
+}
